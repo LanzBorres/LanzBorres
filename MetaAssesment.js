@@ -9,7 +9,7 @@ Assessment Requirements
 */
 
 // create a variable to hold your NFT's
-const NFTs = []
+let NFTs = []
 // this function will take in some values as parameters, create an
 // NFT object using the parameters passed to it for its metadata, 
 // and store it in the variable above.
@@ -34,6 +34,7 @@ function listNFTs () {
         console.log("Height: " +NFTs[i].height);
         console.log("Weight: " +NFTs[i].weight);
         console.log("Skill: " +NFTs[i].skill);
+        console.log("---------------------------");
     }
 }
 
